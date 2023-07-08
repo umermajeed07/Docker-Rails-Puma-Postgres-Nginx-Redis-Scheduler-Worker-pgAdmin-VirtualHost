@@ -4,6 +4,9 @@ This file introduce usage of our Docker images.
 ## Dependencies
 - Images build against **Redis**, **NGINX**, **Scheduler**, **Worker**, **pgAdmin** and **Postgres**. 
 
+## Copy Files
+- Copy **Makefile**, **Dockerfile**, **docker-entrypoint**, **docker-compose**, and **.env** at root of your rails project folder.
+
 ## DATABASE YML 
 Replace the below config in the config/database.yml file
 
